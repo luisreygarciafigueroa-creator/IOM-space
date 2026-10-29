@@ -1,5 +1,41 @@
+# Dependencies
 node_modules/
-.project_id
-.github_repo
+
+# Environment
 .env
 .env.*
+!.env.example
+
+# Build / cache
+dist/
+.output/
+.vercel/
+.turbo/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Grok App Builder / local workspace
+.project_id
+.github_repo
+.node_modules.lock
+
+# Test / coverage
+coverage/
+playwright-report/
+test-results/
+
+# OS
+.DS_Store

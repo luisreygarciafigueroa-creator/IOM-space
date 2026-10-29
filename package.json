@@ -1,6 +1,30 @@
 {
-  "name": "app-builder-workspace",
+  "name": "unidad-iom",
+  "version": "1.0.0",
   "private": true,
+  "description": "Unidad — Motor IOM. Entrena un modelo que emula IOM y optimiza procesos hasta dejarlos como una unidad informativa.",
+  "author": "Luis Rey García Figueroa",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luisreygarciafigueroa-creator/IOM-space.git"
+  },
+  "homepage": "https://github.com/luisreygarciafigueroa-creator/IOM-space",
+  "bugs": {
+    "url": "https://github.com/luisreygarciafigueroa-creator/IOM-space/issues"
+  },
+  "keywords": [
+    "iom",
+    "unidad",
+    "process-optimization",
+    "client-side-ml",
+    "neural-networks",
+    "triads",
+    "knowledge-framework",
+    "tanstack",
+    "react",
+    "typescript"
+  ],
   "sideEffects": false,
   "type": "module",
   "overrides": {
